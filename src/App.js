@@ -8,14 +8,15 @@ import {
 
 import Dashboard from './Components/Dashboard'
 import EmployeeDetails from './Components/EmployeeDetails'
+import MainDashboard from './Components/MainDashboard'
 
 const  App = () => {
   return (
     <Router>
 
-      <Route exact path="/employeeDetails" component={Dashboard} />
-      <Route exact path="/" component={EmployeeDetails} />
-      
+      <Route exact path="/Dashboard" component={Dashboard} />
+      <Route exact path="/EmployeeDetails" component={EmployeeDetails} />
+      <Route exact path="/" component={MainDashboard} />
 
     </Router>
   );

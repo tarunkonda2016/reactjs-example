@@ -5,7 +5,7 @@ let config = {
     // authDomain: "XXXXX",
     databaseURL: "https://windzsystem-a01cc.firebaseio.com/",
     projectId: "windzsystem-a01cc",
-    // storageBucket: "XXXX",
+    storageBucket: "windzsystem-a01cc.appspot.com",
     // messagingSenderId: "XXXX"
 };
 firebase.initializeApp(config);
